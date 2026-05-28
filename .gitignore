@@ -15,3 +15,10 @@ DataFrame/*
 # Permitir a documentação e configuração do Git
 !.gitignore
 !README.md
+!README.pt-br.md
+!LICENSE
+!CONTRIBUTING.md
+!CODE_OF_CONDUCT.md
+!SECURITY.md
+!.github/
+!.github/**
