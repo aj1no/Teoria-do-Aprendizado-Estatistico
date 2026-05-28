@@ -1,0 +1,17 @@
+# Ignorar tudo por padrão
+*
+
+# Permitir que o Git entre em pastas para vasculhar arquivos
+!*/
+
+# Permitir os arquivos principais do portfólio (TAEs001.R a TAEs008.R)
+!TAEs00[1-8].R
+
+# Permitir a própria pasta de dados e seus CSVs
+!DataFrame/
+DataFrame/*
+!DataFrame/*.csv
+
+# Permitir a documentação e configuração do Git
+!.gitignore
+!README.md
