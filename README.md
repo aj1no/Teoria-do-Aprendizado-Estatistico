@@ -63,14 +63,3 @@ install.packages(c("ISLR", "ISLR2", "caret", "pROC", "ggplot2", "mlbench", "palm
 * **Regressão Logística Multinomial**: Classificação multiclasse utilizando o pacote `nnet` para predição da espécie de pinguins no dataset `palmerpenguins`.
 
 ---
-
-## Como Executar
-1. Certifique-se de ter os pacotes listados acima instalados.
-2. No RStudio, defina o diretório de trabalho para a pasta raiz deste projeto:
-   ```R
-   setwd("c:/Users/takem/OneDrive/Documentos/FATEC/TAE")
-   ```
-3. Abra e execute os scripts de interesse.
-
----
-*Desenvolvido por Rodolfo Vinicius Cima Takemoto para a disciplina de Teoria do Aprendizado Estatístico.*
