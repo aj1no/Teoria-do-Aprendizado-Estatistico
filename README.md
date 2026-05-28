@@ -1,15 +1,16 @@
-# Teoria do Aprendizado Estatístico (TAE) 🧠📈
+# Teoria do Aprendizado Estatístico (TAE)
 
-Repositório contendo os laboratórios e projetos práticos desenvolvidos na linguagem **R** (com o suporte do RStudio) para a disciplina de **Teoria do Aprendizado Estatístico** da FATEC.
+Repositório contendo os laboratórios e projetos práticos desenvolvidos na linguagem R (com o suporte do RStudio) para a disciplina de Teoria do Aprendizado Estatístico da FATEC.
 
-Autor: **Rodolfo Vinicius Cima Takemoto**  
-GitHub: [aj1no](https://github.com/aj1no)
+* **Autor:** Rodolfo Vinicius Cima Takemoto  
+* **Professor:** Douglas Paes Mação  
+* **GitHub:** [aj1no](https://github.com/aj1no)
 
 ---
 
-## 🛠️ Tecnologias e Pacotes Utilizados
+## Tecnologias e Pacotes Utilizados
 
-Para rodar os scripts deste repositório, você precisará da linguagem **R** configurada e das seguintes bibliotecas:
+Para rodar os scripts deste repositório, você precisará da linguagem R configurada e das seguintes bibliotecas:
 * `ISLR` & `ISLR2` (Bases de dados para aprendizado de máquina clássico)
 * `caret` (Interface unificada para classificação e regressão)
 * `pROC` (Análise de curvas ROC e otimização de limiares)
@@ -26,7 +27,7 @@ install.packages(c("ISLR", "ISLR2", "caret", "pROC", "ggplot2", "mlbench", "palm
 
 ---
 
-## 📂 Organização dos Scripts (TAEs)
+## Organização dos Scripts (TAEs)
 
 | Script | Tema Principal | Algoritmos e Métodos | Datasets Utilizados |
 | :--- | :--- | :--- | :--- |
@@ -41,29 +42,29 @@ install.packages(c("ISLR", "ISLR2", "caret", "pROC", "ggplot2", "mlbench", "palm
 
 ---
 
-## 🔍 Resumo Detalhado dos Trabalhos
+## Resumo Detalhado dos Trabalhos
 
-### 📈 TAEs001 a TAEs003: Modelagem Linear e Seleção de Atributos
+### TAEs001 a TAEs003: Modelagem Linear e Seleção de Atributos
 * **Eliminação Regressiva e Stepwise**: Estudo sistemático sobre a redução de dimensionalidade. Foram analisados os p-valores e a métrica AIC (Akaike Information Criterion) para remover variáveis não significativas (como `Population`, `Education` e `Urban` na predição de `Sales` do dataset `Carseats`).
 * **Cálculo da Equação de Regressão**: Implementação manual de funções preditoras usando coeficientes $\beta$ individuais para entender de forma transparente os bastidores do modelo linear comparado à predição padrão do R.
 
-### 📊 TAEs004 e TAEs005: Modelagem de Classificação Binária
+### TAEs004 e TAEs005: Modelagem de Classificação Binária
 * **Regressão Logística**: Modelagem matemática de variáveis categóricas usando a função de ligação logit (família binomial).
 * **Curvas ROC e Youden's Index**: Desenvolvimento de análises gráficas para balancear a taxa de verdadeiros positivos (Sensibilidade) e falsos positivos (Especificidade). Uso do Índice de Youden para definir limiares ótimos de decisão em vez do padrão fixo de $0.5$.
 
-### ⚡ TAEs006: Consolidação e Engenharia de Código
+### TAEs006: Consolidação e Engenharia de Código
 * Criação de um pipeline robusto com funções auxiliares automatizadas (como `otimizar_modelo`), reduzindo redundâncias de código e unificando a modelagem e validação estatística em múltiplos datasets de uma vez.
 
-### 📁 TAEs007: ETL e Modelagem Real com CSVs
+### TAEs007: ETL e Modelagem Real com CSVs
 * Tratamento de problemas práticos de formatação numérica em datasets do mundo real (remoção de pontos de milhar, ajuste de escala flutuante) e aplicação de modelos lineares e logísticos sobre dados de saúde (doenças cardíacas), imobiliário (Boston) e automobilístico. Os arquivos de dados originais estão localizados na pasta `DataFrame/`.
 
-### 🌳 TAEs008: Árvores de Decisão e Regressão Multiclasse
+### TAEs008: Árvores de Decisão e Regressão Multiclasse
 * **Árvores com Poda (Pruning)**: Uso do pacote `rpart` para gerar árvores de decisão complexas e depois aplicar poda utilizando o parâmetro de complexidade (CP) otimizado por validação cruzada para evitar sobreajuste (overfitting) no dataset `Sonar`.
 * **Regressão Logística Multinomial**: Classificação multiclasse utilizando o pacote `nnet` para predição da espécie de pinguins no dataset `palmerpenguins`.
 
 ---
 
-## 🚀 Como Executar
+## Como Executar
 1. Certifique-se de ter os pacotes listados acima instalados.
 2. No RStudio, defina o diretório de trabalho para a pasta raiz deste projeto:
    ```R
@@ -72,4 +73,4 @@ install.packages(c("ISLR", "ISLR2", "caret", "pROC", "ggplot2", "mlbench", "palm
 3. Abra e execute os scripts de interesse.
 
 ---
-*Desenvolvido por Rodolfo Vinicius Cima Takemoto como portfólio prático de Teoria do Aprendizado Estatístico.*
+*Desenvolvido por Rodolfo Vinicius Cima Takemoto para a disciplina de Teoria do Aprendizado Estatístico.*
