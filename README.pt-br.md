@@ -4,7 +4,7 @@
 
 [![R](https://img.shields.io/badge/R-%3E%3D%204.0-blue?style=flat-square&logo=r&logoColor=white)](https://www.r-project.org/)
 [![License MIT](https://img.shields.io/badge/License-MIT-green?style=flat-square)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/aj1no/Teoria-do-Aprendizado-Estatistico/ci.yml?branch=main&label=CI&style=flat-square)](https://github.com/aj1no/Teoria-do-Aprendizado-Estatistico/actions)
+[![CI](https://img.shields.io/github/actions/workflow/status/aj1no/statistical-learning-theory/ci.yml?branch=main&label=CI&style=flat-square)](https://github.com/aj1no/statistical-learning-theory/actions)
 
 Repositório contendo os laboratórios e projetos práticos desenvolvidos na linguagem R (com o suporte do RStudio) para a disciplina de Teoria do Aprendizado Estatístico da FATEC.
 
