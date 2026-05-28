@@ -2,9 +2,9 @@
 
 Repositório contendo os laboratórios e projetos práticos desenvolvidos na linguagem R (com o suporte do RStudio) para a disciplina de Teoria do Aprendizado Estatístico da FATEC.
 
-* **Autor:** Rodolfo Vinicius Cima Takemoto  
+* **Autor:** Rodolfo Vinicius Cima Takemoto
+* 
 * **Professor:** Douglas Paes Mação  
-* **GitHub:** [aj1no](https://github.com/aj1no)
 
 ---
 
